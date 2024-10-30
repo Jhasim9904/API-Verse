@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header input {
+    width: 80%;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Left Side Styling: Categories */
+.categories {
+    flex: 1;
+    background-color: #f8f8f8;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.categories h2 {
+    margin-top: 0;
+}
+
+.categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories ul li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.categories ul li:hover {
+    background-color: #ccc;
+}
+
+/* Middle Section Styling: API List */
+.api-display {
+    flex: 2;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.api-display h2 {
+    margin-top: 0;
+}
+
+#api-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.api-item {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+
+/* Right Side Styling: Contribute API Form */
+.contribute-api {
+    flex: 1;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.contribute-api h2 {
+    margin-top: 0;
+}
+
+.contribute-api form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contribute-api form input,
+.contribute-api form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contribute-api form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contribute-api form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* Style for the main search bar */
+header input {
+    width: 80%;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+/* Style for category search input */
+.categories input#category-search {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.categories {
+    max-height: 300px; /* Set a maximum height for the category list */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
